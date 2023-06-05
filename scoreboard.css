@@ -83,6 +83,7 @@ body {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 2rem 0;
 }
 
 .red-score,
@@ -116,7 +117,7 @@ h2 {
   font-size: 36px;
   font-weight: bold;
   color: #eeeeee;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   border-radius: 10px;
   margin: 1rem;
 }
@@ -185,13 +186,11 @@ h2 {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   color: #ffffff;
   text-align: center;
   padding: 1rem;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .restart_score {
@@ -202,4 +201,5 @@ footer {
   border: none;
   outline: none;
   width: 100%;
+  font-size: 28px;
 }
