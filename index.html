@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="scoreboard.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-********" crossorigin="anonymous" /> <!-- Reemplaza ******** con la cadena de integridad correspondiente -->
+  <title>Scoreboard</title>
+</head>
+<body>
+    <img src="./img/luchaguarne.png" alt="">
+    <br>
+    <img src="./img/scoreboardlogo.png" alt="" width="auto" height="100px" style="margin:1rem auto;">
+  <div class="scoreboard">
+    <div class="timer">
+      <h2>00:00</h2>
+      <button class="primarybtn" id="startButton"><i class="fas fa-play"></i> Iniciar</button>
+  <button class="primarybtn" id="pauseButton"><i class="fas fa-pause"></i> Pausar</button>
+      <div class="timer-controls">
+  
+  <button class="secondarybtn"  id="resetButton"><i class="fas fa-undo"></i> Reiniciar</button>
+  <button class="secondarybtn"  id="addTimeButton"><i class="fas fa-plus"></i> Agregar 10 seg</button>
+  <button class="secondarybtn" id="subtractTimeButton"><i class="fas fa-minus"></i> Quitar 10 seg</button>
+</div>
+    </div>
+    <div class="score">
+      <div class="red-score">
+        <input class="wrestler-name" type="text" name="" id="" value="Red">
+        <span class="Score Score-red" id="redScore">0</span>
+        <div class="score-buttons">
+          <button class="score-button add" data-value="1"><i class="fas fa-plus"></i>1</button>
+          <button class="score-button add" data-value="2"><i class="fas fa-plus"></i>2</button>
+          <button class="score-button add" data-value="4"><i class="fas fa-plus"></i>4</button>
+          <button class="score-button minus" data-value="-1"><i class="fas fa-minus"></i>1</button>
+        </div>
+      </div>
+      <div class="blue-score">
+        <input class="wrestler-name" type="text" name="" id="" value="Blue">
+        <span class="Score Score-blue" id="blueScore">0</span>
+        <div class="score-buttons">
+          <button class="score-button add" data-value="1"><i class="fas fa-plus"></i>1</button>
+          <button class="score-button add" data-value="2"><i class="fas fa-plus"></i>2</button>
+          <button class="score-button add" data-value="4"><i class="fas fa-plus"></i>4</button>
+          <button class="score-button minus" data-value="-1"><i class="fas fa-minus"></i>1</button>
+        </div>
+      </div>
+    </div>
+    <button class="restart_score" id="restart_score" onclick="reiniciarPuntos()">Reiniciar puntos</button>*/
+</div>
+<script src="scoreboard.js"></script>
+<footer>
+    Simon Castaño & Club de lucha Olympus Guarne &copy; 
+</footer>
+</body>
+</html>
